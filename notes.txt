@@ -23,3 +23,5 @@ JS Arrow Function
 https://www.w3schools.com/js/js_arrow_function.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
+JS Destructuring
+https://www.w3schools.com/js/js_destructuring.asp

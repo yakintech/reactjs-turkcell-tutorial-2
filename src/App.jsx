@@ -1,17 +1,14 @@
+import Categories from "./propSample/Categories";
+import { categoriesData } from "./data/categoriesData";
 import ProductBox from "./propSample/ProductBox";
-
 
 
 function App() {
 
-  const hello = () => {
-    alert("Hello")
-  }
 
   return <>
-    <ProductBox title="IPhone" price={1000} image="https://m.media-amazon.com/images/I/51PTXV+qkQL._AC_UF1000,1000_QL80_.jpg" description="Apple product" points={[4,3,5,5]} hello={hello} />
-
-    <ProductBox title="Samsung" price={2000} image="https://m.media-amazon.com/images/I/51PTXV+qkQL._AC_UF1000,1000_QL80_.jpg" description="Samsung product"  hello={hello}  />
+    <Categories categoriesData={categoriesData} />
+    <ProductBox title="Product 1" price={100} image="https://via.placeholder.com/150" description="Description 1" points={["point 1", "point 2", "point 3"]} hello={() => alert("Hello")} />
   </>
 }
 
