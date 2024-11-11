@@ -1,19 +1,16 @@
-import SiteFooter from "./components/SiteFooter";
-import SiteHeader from "./components/SiteHeader";
-import JsxEvents from "./jsxSample/JsxEvents";
-import Product from "./jsxSample/Product";
-import Users from "./jsxSample/Users";
+import Content from "./template/Content";
+import Footer from "./template/Footer";
+import Header from "./template/Header";
+import Navbar from "./template/Navbar";
+
 
 function App() {
 
   return <>
-    <SiteHeader />
-    <hr />
-    <Users />
-    <Product />
-    <JsxEvents />
-    <hr />
-    <SiteFooter />
+    <Navbar />
+    <Header />
+    <Content />
+    <Footer />
   </>
 }
 

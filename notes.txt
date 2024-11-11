@@ -2,9 +2,14 @@ Kurulumlar
 VS Code React Extension
 dsznajder.es7-react-js-snippets
 
+npm start ile çalıştırıyorum. ctrl+c ile durduruyorum
+
 React Chrome Extension
 https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 
+
+HTML to JSX Transform Tool
+https://transform.tools/html-to-jsx
 
 
 JS EXPORT ( MDN )
