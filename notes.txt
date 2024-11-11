@@ -1,0 +1,20 @@
+Kurulumlar
+VS Code React Extension
+dsznajder.es7-react-js-snippets
+
+React Chrome Extension
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+
+
+
+JS EXPORT ( MDN )
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+
+
+Sonar Lint Extension
+SonarSource.sonarlint-vscode
+
+JS Arrow Function
+https://www.w3schools.com/js/js_arrow_function.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
