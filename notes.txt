@@ -7,6 +7,9 @@ npm start ile çalıştırıyorum. ctrl+c ile durduruyorum
 React Chrome Extension
 https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
 
+FAKE FILLER
+https://chromewebstore.google.com/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=tr
+
 
 HTML to JSX Transform Tool
 https://transform.tools/html-to-jsx
