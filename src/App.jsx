@@ -9,11 +9,12 @@ import StateIntro from "./state/StateIntro";
 import StateIntro2 from "./state/StateIntro2";
 import StateIntro3 from "./state/StateIntro3";
 import SuppliersTable from "./state/SuppliersTable";
+import ProductsTable from "./state/ProductsTable";
 
 function App() {
 
 
-  return <SuppliersTable />
+  return <ProductsTable />
 
 
   return <>
