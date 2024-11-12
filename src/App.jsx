@@ -8,11 +8,12 @@ import SupplierDetail from "./pages/SupplierDetail";
 import StateIntro from "./state/StateIntro";
 import StateIntro2 from "./state/StateIntro2";
 import StateIntro3 from "./state/StateIntro3";
+import SuppliersTable from "./state/SuppliersTable";
 
 function App() {
 
 
-  return <StateIntro3 />
+  return <SuppliersTable />
 
 
   return <>
