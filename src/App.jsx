@@ -12,6 +12,7 @@ import SuppliersTable from "./state/SuppliersTable";
 import ProductsTable from "./state/ProductsTable";
 import LifeCycle from "./effect/LifeCycle";
 import CustomerList from "./effect/CustomerList";
+import CustomerDetail from "./effect/CustomerDetail";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
       <Route path="/suppliers" element={<Suppliers />} />
       <Route path="/suppliers/:id" element={<SupplierDetail />} />
       <Route path="/customers" element={<CustomerList />} />
+      <Route path="/customers/:id" element={<CustomerDetail/>}/> 
       <Route path="*" element={<NotFound />} />
 
     </Routes>

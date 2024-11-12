@@ -1,11 +1,12 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function CustomerList() {
 
     const [customers, setcustomers] = useState([])
 
-    
+
 
     useEffect(() => {
 
@@ -34,7 +35,7 @@ function CustomerList() {
             <tbody>
                 {
                     customers.map(item => <tr>
-                        <td>{item.id}</td>
+                        <td><Link to={'/customers/' + item.id}>{item.id}</Link></td>
                         <td>{item.companyName}</td>
                         <td>{item.contactName}</td>
                         <td>{item.contactTitle}</td>
