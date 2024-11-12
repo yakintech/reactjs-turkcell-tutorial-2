@@ -25,3 +25,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arro
 
 JS Destructuring
 https://www.w3schools.com/js/js_destructuring.asp
+
+React Virtual DOM
+https://www.freecodecamp.org/news/what-is-the-virtual-dom-in-react/

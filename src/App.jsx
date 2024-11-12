@@ -5,9 +5,14 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Suppliers from "./pages/Suppliers";
 import SupplierDetail from "./pages/SupplierDetail";
+import StateIntro from "./state/StateIntro";
+import StateIntro2 from "./state/StateIntro2";
+import StateIntro3 from "./state/StateIntro3";
 
 function App() {
 
+
+  return <StateIntro3 />
 
 
   return <>
