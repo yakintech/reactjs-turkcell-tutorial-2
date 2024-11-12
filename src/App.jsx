@@ -10,11 +10,12 @@ import StateIntro2 from "./state/StateIntro2";
 import StateIntro3 from "./state/StateIntro3";
 import SuppliersTable from "./state/SuppliersTable";
 import ProductsTable from "./state/ProductsTable";
+import LifeCycle from "./effect/LifeCycle";
+import CustomerList from "./effect/CustomerList";
 
 function App() {
 
 
-  return <ProductsTable />
 
 
   return <>
@@ -24,6 +25,7 @@ function App() {
         <li><Link to={'/about'}>About</Link></li>
         <li><Link to={'/contact'}>Contact</Link></li>
         <li><Link to={'/suppliers'}>Suppliers</Link></li>
+        <li><Link to={'/customers'}>Customers</Link></li>
 
       </ul>
     </nav>
@@ -34,6 +36,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/suppliers" element={<Suppliers />} />
       <Route path="/suppliers/:id" element={<SupplierDetail />} />
+      <Route path="/customers" element={<CustomerList />} />
       <Route path="*" element={<NotFound />} />
 
     </Routes>
