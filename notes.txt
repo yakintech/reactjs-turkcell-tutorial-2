@@ -48,3 +48,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 
 
+DATA FETCHING LIBRARY
+https://swr.vercel.app/
+https://tanstack.com/query/latest/docs/framework/react/overview
+
